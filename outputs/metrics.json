@@ -1,0 +1,48 @@
+{
+  "day_ahead": {
+    "Seasonal naive (same slot last week)": {
+      "MAE": 12.9424,
+      "RMSE": 24.7711,
+      "MAPE_%": 95.1965,
+      "sMAPE_%": 37.8744,
+      "WAPE_%": 49.6298
+    },
+    "Linear regression": {
+      "MAE": 12.6163,
+      "RMSE": 18.5754,
+      "MAPE_%": 164.5856,
+      "sMAPE_%": 82.0573,
+      "WAPE_%": 48.3794
+    },
+    "HistGradientBoosting": {
+      "MAE": 10.1129,
+      "RMSE": 17.9877,
+      "MAPE_%": 76.4833,
+      "sMAPE_%": 42.5461,
+      "WAPE_%": 38.7797
+    }
+  },
+  "15min_ahead": {
+    "Seasonal naive (same slot last week)": {
+      "MAE": 12.9424,
+      "RMSE": 24.7711,
+      "MAPE_%": 95.1965,
+      "sMAPE_%": 37.8744,
+      "WAPE_%": 49.6298
+    },
+    "Linear regression": {
+      "MAE": 6.4438,
+      "RMSE": 11.0083,
+      "MAPE_%": 61.8779,
+      "sMAPE_%": 45.7746,
+      "WAPE_%": 24.7098
+    },
+    "HistGradientBoosting": {
+      "MAE": 4.2179,
+      "RMSE": 8.7853,
+      "MAPE_%": 16.8301,
+      "sMAPE_%": 13.5181,
+      "WAPE_%": 16.1744
+    }
+  }
+}

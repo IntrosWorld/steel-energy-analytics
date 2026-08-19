@@ -1,0 +1,4 @@
+,MAE,RMSE,MAPE_%,sMAPE_%,WAPE_%
+Seasonal naive (same slot last week),12.9424,24.7711,95.1965,37.8744,49.6298
+Linear regression,12.6163,18.5754,164.5856,82.0573,48.3794
+HistGradientBoosting,10.1129,17.9877,76.4833,42.5461,38.7797
