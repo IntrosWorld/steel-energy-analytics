@@ -1,0 +1,134 @@
+{
+  "idle": {
+    "total_kWh": 959636.7100000001,
+    "floor_kWh_per_15min": 3.17,
+    "floor_kW": 12.68,
+    "baseline_kWh": 108795.43000000001,
+    "above_baseline_kWh": 850841.28,
+    "baseline_share_%": 11.337147575356928,
+    "idle_intervals": 20899,
+    "idle_intervals_share_%": 59.64326484018265,
+    "idle_kWh": 77343.4,
+    "active_kWh": 882293.31,
+    "idle_share_%": 8.059654158082383,
+    "idle_excess_over_floor_kWh": 13374.94,
+    "light_load_kWh": 155892.81,
+    "light_load_share_%": 16.244981916125322,
+    "energy_by_load_type_kWh": {
+      "Light_Load": 155892.81,
+      "Maximum_Load": 430977.36,
+      "Medium_Load": 372766.54
+    },
+    "weekend_idle_kWh": 28465.38,
+    "sunday_kWh": 37667.8
+  },
+  "pf": {
+    "pf_limit": 0.9,
+    "pf_target": 0.95,
+    "low_pf_intervals": 19206,
+    "low_pf_share_%": 54.811643835616444,
+    "low_pf_idle_intervals": 13703,
+    "low_pf_active_intervals": 5503,
+    "kWh_in_low_pf": 397554.29,
+    "lagging_kVArh_in_low_pf": 279400.52,
+    "lagging_kVArh_total": 456759.83999999997,
+    "kVArh_to_compensate": 148730.74393133173,
+    "kVArh_to_compensate_active_only": 100451.64646491251,
+    "kVAh_before": 493033.13539588195,
+    "kVAh_after": 418478.2,
+    "kVAh_reduction": 74554.93539588194,
+    "I2R_loss_reduction_in_low_pf_intervals_%": 19.88120689927022,
+    "bank_kVAr_p95": 100.1938438108422,
+    "bank_kVAr_max": 221.14918221736005,
+    "leading_kVArh_total": 135638.03999999998,
+    "leading_kVArh_by_hour": {
+      "0": 210.13,
+      "1": 201.49,
+      "2": 192.69,
+      "3": 66.63,
+      "4": 10.35,
+      "5": 13.55,
+      "6": 15.379999999999999,
+      "7": 22.18,
+      "8": 1161.47,
+      "9": 4959.53,
+      "10": 4943.19,
+      "11": 2456.33,
+      "12": 26102.37,
+      "13": 6680.81,
+      "14": 5004.27,
+      "15": 5018.57,
+      "16": 5999.19,
+      "17": 10788.34,
+      "18": 7996.33,
+      "19": 12098.44,
+      "20": 13535.460000000001,
+      "21": 25341.02,
+      "22": 2584.34,
+      "23": 235.98
+    },
+    "leading_kVArh_by_load_type": {
+      "Light_Load": 53209.89,
+      "Maximum_Load": 11769.91,
+      "Medium_Load": 70658.24
+    }
+  },
+  "peak": {
+    "max_kW": 628.72,
+    "max_kW_time": "2018-11-22 09:30:00",
+    "monthly_max_kW": {
+      "1": 612.56,
+      "2": 582.04,
+      "3": 605.24,
+      "4": 556.12,
+      "5": 560.16,
+      "6": 535.4,
+      "7": 486.72,
+      "8": 534.8,
+      "9": 510.48,
+      "10": 557.72,
+      "11": 628.72,
+      "12": 596.72
+    },
+    "top100_by_hour": {
+      "8": 10,
+      "9": 11,
+      "10": 12,
+      "11": 16,
+      "13": 6,
+      "14": 9,
+      "15": 8,
+      "16": 10,
+      "17": 4,
+      "18": 6,
+      "19": 6,
+      "20": 2
+    },
+    "top100_by_load_type": {
+      "Maximum_Load": 48,
+      "Medium_Load": 42,
+      "Light_Load": 10
+    },
+    "maximum_load_kWh": 430977.36,
+    "caps": {
+      "P99": {
+        "cap_kW": 490.8332000000001,
+        "intervals_above_cap": 351,
+        "kWh_to_shift": 2903.366699999992,
+        "kWh_to_shift_in_Maximum_Load": 1352.991999999996,
+        "peak_reduction_kW": 137.88679999999994,
+        "days_with_excess": 86,
+        "days_where_offpeak_headroom_suffices": 86
+      },
+      "P95": {
+        "cap_kW": 396.16,
+        "intervals_above_cap": 1751,
+        "kWh_to_shift": 25344.319999999985,
+        "kWh_to_shift_in_Maximum_Load": 12220.009999999995,
+        "peak_reduction_kW": 232.56,
+        "days_with_excess": 181,
+        "days_where_offpeak_headroom_suffices": 181
+      }
+    }
+  }
+}

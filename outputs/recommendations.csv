@@ -1,0 +1,6 @@
+recommendation,type,estimate,unit,method
+Trim idle-period consumption to the night-time floor (switch off auxiliaries/lighting/compressors left running outside production),energy saved,13374.94,kWh/yr,Sum over idle intervals (<10 kWh) of consumption above the night median floor (3.17 kWh/15 min)
+Audit the always-on base load; every 10% cut in the floor saves this much,energy saved (sensitivity),10879.543000000001,kWh/yr per 10% cut,"10% x baseline energy sum(min(kWh, floor)) = 0.10 x 108795"
+Shift peak-period load so 15-min demand stays below 396 kW (P95); cuts maximum demand by 233 kW,energy shifted (demand charge),25344.319999999985,kWh/yr moved,Sum of energy above the cap; same-day off-peak headroom suffices on 181/181 days
+Capacitor bank / APFC to raise lagging PF from <0.9 to 0.95 (bank ~100 kVAr covers 95% of low-PF intervals),"apparent energy reduced (kVAh billing, I^2R loss)",74554.93539588194,kVAh/yr,Q_c = P(tan phi1 - tan phi2) per low-PF interval; 148731 kVArh compensated; I^2R loss in those intervals down 19.9% (estimate)
+Switch capacitor stages off when load drops (lunch 12:00 and end of shift 21:00) to stop over-compensation,leading reactive energy avoided,135638.03999999998,kVArh/yr,Upper bound = total leading kVArh metered; largest at 12:00 and 21:00 when the load falls
